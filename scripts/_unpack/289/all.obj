@@ -143,6 +143,10 @@ param=defend_anim,human_banner_block
 param=stabattack_anim,human_banner_spike
 param=slashattack_anim,human_banner_spike
 param=crushattack_anim,human_banner_spike
+// todo: sounds
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
 name=Saradomin banner
 desc=The Saradomin Team Standard.
 model=game_castlewars_banners_saradomin
@@ -177,6 +181,10 @@ param=defend_anim,human_banner_block
 param=stabattack_anim,human_banner_spike
 param=slashattack_anim,human_banner_spike
 param=crushattack_anim,human_banner_spike
+// todo: sounds
+param=stab_sound,staff_stab
+param=slash_sound,staff_crush
+param=crush_sound,staff_hit
 name=Zamorak banner
 desc=The Zamorak Team Standard.
 model=game_castlewars_banners_zamorak

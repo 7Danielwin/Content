@@ -225,7 +225,8 @@ if (%castlewars_team = ^castlewars_team_saradomin) {
     ~castlewars_decrement_zamorak_count;
 }
 if (~castlewars_has_flag = true) {
-    ~castlewars_flag_drop(worn, ~castlewars_flag(%castlewars_team));
+    ~castlewars_flag_drop(worn, castlewars_saradomin_banner);
+    ~castlewars_flag_drop(worn, castlewars_zamorak_banner);
 }
 %castlewars_clock = ~castlewars_end_clock;
 
