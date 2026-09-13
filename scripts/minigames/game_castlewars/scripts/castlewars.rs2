@@ -177,7 +177,7 @@ return(max(getbit_range(%castlewars_saradomin_bits2, ^castlewars_wins_startbit, 
 return(max(getbit_range(%castlewars_zamorak_bits2, ^castlewars_wins_startbit, ^castlewars_wins_endbit), 0));
 
 [proc,castlewars_can_enter]()(boolean)
-if (inv_getobj(worn, ^wearpos_back) ! null | inv_getobj(worn, ^wearpos_head) ! null) {
+if (inv_getobj(worn, ^wearpos_back) ! null | inv_getobj(worn, ^wearpos_hat) ! null) {
     mes("You can't wear hats, capes, or helms in the arena."); // https://youtu.be/c0HABEQe41s?t=38
     return(false);
 }

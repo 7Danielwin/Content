@@ -92,4 +92,7 @@ if (sub(.%npc_int2, 500) < map_clock) {
 
 [ai_queue1,_castlewars_barricade] // nothing
 [ai_queue3,_castlewars_barricade]
-~castlewars_barricade_delete;
+// todo: could ai_clearqueue exist? until then explicitly check state when the queue would run
+if (npc_type = castlewars_barricade_burning_saradomin | npc_type = castlewars_barricade_burning_zamorak) {
+    ~castlewars_barricade_delete;
+}
